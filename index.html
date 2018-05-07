@@ -5,22 +5,23 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="custom.css">
 </head>
 <body>
-<div id="home" class="text-center" style="padding:5%;height:100vh;overflow: visible;">
-	<img src="cover.jpg" class="img-circle" alt="Vishal Soni" style="width:15%">
-	<p style="font-size: 30px;color:#b30b0b;margin-top: 30px"> Vishal Soni </p>
-	<p style="font-size:18px;margin-top:30px"> A Computer Enthusiast, Who knows a bit about building things with Computer languages</p>
-	<div class="links" style="font-size: 25px;margin-top:30px">
-		<a href="#skills" style="color:#b30b0b"> Skills </a> |
-		<a href="#experience" style="color:#b30b0b"> Experience </a>
+<div id="home" class="text-center screendiv">
+	<img src="image.JPG" class="img-circle mainimg" alt="Vishal Soni">
+	<p class = "name" > Vishal Soni </p>
+	<p class = "text" > A Computer Enthusiast, Who knows a bit about building things with Computer languages</p>
+	<div class="links">
+		<a href="#skills"> Skills </a> |
+		<a href="#experience"> Experience </a>
 	</div>
 </div>
 <hr>
-<div id="skills" class="text-center" style="padding: 5%;height: 100vh;overflow:visible">
-	<h1 style="color:#b30b0b"> Skills </h1>
+<div id="skills" class="text-center screendiv slideanim">
+	<h1 class="colortext"> Skills </h1>
 	<hr width="20%"> 
-	<div style="display:inline-block;text-align: left">
+	<div class = "innerblock">
 		<p style="font-size:18px"> Languages  :  Python, C, C++, Shell Scripting </p>
 		<p style="font-size:18px"> Web Tech   :  HTML, CSS, JavaScript </p>
 		<p style="font-size:18px"> Frameworks :  Flask, Bootstrap </p>
@@ -31,29 +32,31 @@
 	</div>
 </div>
 <hr>
-<div id="experience" class="text-center" style="padding: 5%;height: 100vh;overflow: visible"> 
-	<h1 style="color:#b30b0b"> Experience </h1>
+<div id="experience" class="text-center screendiv slideanim"> 
+	<h1 class="colortext"> Experience </h1>
 	<hr width="20%">
 
-	<div style="display: inline-block;text-align: left;width:100%">
-		<p style="float:right;text-align: right;" class="col-sm-4"> June,2016 - April,2018 </p> 
-		<div style="float:left" class="col-sm-8">
-			<h3 style="color:#b30b0b"> Assistant System Engineer </h3>
-			<p> Tata Consultancy Services, Pune </p>
-			<p> Project : ERP </p>
-			<p> Technology : Python, Shell Script, Progress 4GL, OpenEdge Database </p>
+	<div class = "innerblock exp">
+		<p class="col-sm-4 exp-year text"> June,2016 - April,2018 </p> 
+		<div class="col-sm-8 exp-comp">
+			<h3 class="colortext"> Assistant System Engineer </h3>
+			<p class="text"> Tata Consultancy Services, Pune </p>
+			<p class="text"> Project : ERP </p>
+			<p class="text"> Technology : Python, Shell Script, Progress 4GL, OpenEdge Database </p>
 		</div>
 	</div>
-	<div style="display: inline-block;text-align: left;width:100%">
-		<p style="float:right;text-align: right;" class="col-sm-4"> January,2016 - April,2016 </p> 
-		<div style="float:left" class="col-sm-8">
-			<h3 style="color:#b30b0b"> Intern </h3>
-			<p> Tata Consultancy Services, Gandhinagar </p>
-			<p> Project : Data Migration </p>
-			<p> Technology : Shell Script, Awk </p>
+	<hr width="50%">
+	<div class="innerblock exp">
+		<p class="col-sm-4 exp-year text"> January,2016 - April,2016 </p> 
+		<div class="col-sm-8 exp-comp">
+			<h3 class="colortext"> Intern </h3>
+			<p class="text"> Tata Consultancy Services, Gandhinagar </p>
+			<p class="text"> Project : Data Migration </p>
+			<p class="text"> Technology : Shell Script, Awk </p>
 		</div>
 	</div>
 </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="custom.js"></script>
 </html>
