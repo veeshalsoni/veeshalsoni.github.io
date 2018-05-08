@@ -33,6 +33,23 @@ a
 	margin-top:30px
 }
 
+.socialicondiv
+{
+	margin-top : 30px;
+}
+
+.socialicons
+{
+	font-size: 30px;
+	margin : auto 10px;
+}
+
+.socialicons:hover
+{
+	color:#b30b0b;
+	transition: 0.5s;
+}
+
 .colortext
 {
 	color:#b30b0b;
@@ -109,4 +126,4 @@ a
 		float:none;
 		border-bottom: 1px solid #c8bebe;
 	}
-} 
+}
